@@ -1,22 +1,66 @@
-# Floating Media Controller
+# Pulse
 
-A compact floating music widget built with React, TypeScript, and Vite.
+Pulse is a floating desktop Spotify companion built with React, TypeScript, Electron, and the Spotify Web API.
 
-## Run
+## Features
+
+* Spotify OAuth login
+* Live currently playing track
+* Album artwork display
+* Dynamic album-color accent glow
+* Animated circular progress ring
+* Floating always-on-top desktop widget
+* Play, pause, next and previous controls
+* Track change notifications
+* Electron desktop application
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Electron
+* Spotify Web API
+
+## Screenshots
+
+*Add screenshots here.*
+
+## Installation
 
 ```bash
 npm install
-npm run dev
+npm run electron
 ```
 
-## Add music
+## Spotify Setup
 
-Put audio files here:
+Create a Spotify Developer application and add:
 
 ```text
-public/audio/song1.mp3
-public/audio/song2.mp3
-public/audio/song3.mp3
+http://127.0.0.1:5173/callback
 ```
 
-The app is already wired to those filenames.
+as a Redirect URI.
+
+Create a `.env` file:
+
+```env
+VITE_SPOTIFY_CLIENT_ID=your_client_id_here
+```
+
+## Notes
+
+* Spotify Premium is required for playback controls.
+* Spotify Developer Mode requires users to be added to the application's allowlist.
+
+## Future Improvements
+
+* System tray integration
+* Launch on startup
+* Multi-service music support
+* Better visualizer effects
+
+## Author
+
+Millan Bell
