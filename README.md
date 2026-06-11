@@ -22,9 +22,19 @@ Pulse is a floating desktop Spotify companion built with React, TypeScript, Elec
 * Electron
 * Spotify Web API
 
+### Demo
+
+![Pulse Demo](screenshots/pulse-gif.gif)
+
 ## Screenshots
 
-*Add screenshots here.*
+### Collapsed Widget
+
+![Pulse Collapsed](screenshots/pulse-collapsed.png)
+
+### Expanded Widget
+
+![Pulse Expanded](screenshots/pulse-expanded.png)
 
 ## Installation
 
